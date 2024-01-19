@@ -9,8 +9,8 @@ from PIL import Image
 import pdf2image
 import google.generativeai as genai
 
-poppler_path = r'C:/Program Files/poppler/Library\bin'  # Update to your actual folder name
-os.environ["PATH"] += os.pathsep + poppler_path
+# poppler_path = r'C:/Program Files/poppler/Library\bin'  # Update to your actual folder name
+# os.environ["PATH"] += os.pathsep + poppler_path
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
